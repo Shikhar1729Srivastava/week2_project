@@ -14,19 +14,18 @@
 }
 
 .App-header {
-  background-color: #37474F; /* Darker, modern gray */
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #ECEFF1; /* Lighter, softer gray for text */
+  color: white;
 }
 
 .App-link {
-  color: #64B5F6; /* A more vibrant blue */
-  text-decoration: none; /* Optional: Remove underline for a cleaner look */
+  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -36,4 +35,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* Hover Effect for Button */
+.hover-effect:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect for Image */
+.hover-effect:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
 }
